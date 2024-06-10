@@ -1,0 +1,405 @@
+body
+{
+    margin:0;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #000;
+    line-height: 1.7;
+    transition: all;
+}
+
+main
+{
+    background-image: url(https://preview.colorlib.com/theme/elit/images/img_9.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-color: rgb(0, 0, 0, 0.4);
+    float: right;
+    width: calc(100% - 250px);
+    width: 87%;
+}
+
+::selection
+{
+    background: #000;
+    color: #fff;
+}
+
+#BarraP
+{
+    background-color: rgb(0, 0, 0); 
+    position: fixed;
+    text-align: left; 
+    top: 0;
+    padding: 30px; 
+    height: 100vh;
+    width: 10%;
+    overflow: auto;
+    user-select:none;
+}
+
+#logo
+{
+    
+    font-size: 20px;
+    margin-bottom: 30px;
+    user-select:none;
+    animation: transitionHorizontal 0.8s;
+}
+
+
+
+#coluna1
+{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 30px;
+    user-select:none;
+
+}
+
+.linha1
+{
+    font-size: 0.8rem;
+    padding-top: 10px;
+    padding-bottom: 4px; 
+}
+
+#coluna2
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding:0;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: space-between;
+    user-select:none
+   
+   
+}
+a
+{
+    color: white; 
+    text-decoration:none;
+}
+
+a:hover
+{
+    color:#df0e62;
+}
+svg
+{
+    
+    height: 15px;
+    fill: #fff;
+
+}
+svg:hover 
+{
+    fill:#df0e62;
+}
+
+#ajuste
+{
+
+position: relative;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 500px;
+z-index: 2;
+
+}
+
+#titulo
+{
+    color: white;
+    text-align: center;
+    width: 58%;
+    animation: transitionVertical 0.8s;
+}
+
+#welcome
+{
+    font-family: "Oswald", sans-serif;
+    font-size: 4rem;
+}
+
+#subtitulo 
+{
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 3rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0;
+}
+
+#botao
+{
+    color: #fff;
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    border-radius: 30px;
+    background-color: #df0e62;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 15px 30px;
+    letter-spacing: .1em
+}
+
+#setor1
+{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.setor2
+{
+    background: #000;
+    justify-content: center !important;
+}
+
+#ajustesimagens 
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image img{
+    height: 300px;
+    width: 464px;
+    object-fit: cover;
+    transition: 0.5s;
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+    margin: 0;
+}
+#test{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+#cara{
+    border-radius: 50%;
+    font-family: "Quicksand", sans-serif;
+}
+#cara2{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+#titulo2
+{ 
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 64px;
+    font-family: "Oswald", sans-serif;
+}
+
+#textocara{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 1%;
+    color:rgba(255, 255, 255, 0.288);
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+}
+#biografia{
+    height: 1600px;
+    width: 90%;
+    padding-left: 19%;
+    background-color: rgb(26,26,26);
+    justify-content: center;
+}
+.image svg
+{
+    position: relative;
+    opacity: 0;
+    top: -50%;
+    left: -50%;
+    transition: 0.5s;
+}
+.image:hover svg
+{
+    top: -50%;
+    opacity: 1;
+    animation: transitionVertical 0.5s;
+}
+.image:hover img
+{
+    filter: brightness(50%);
+    top: -50%;
+    transition: 0.5s;
+}
+#titulo3{
+    color: white;
+    font-size: 64px;
+    font-family:"Oswald", sans-serif;
+    padding-top: 7rem;
+}
+#tit2{
+    font-family: "Oswald", sans-serif;
+    color: white;
+    font-size: 32px;
+}
+.textt{font-size: 16px;
+color: rgba(255, 255, 255, 0.479);
+}
+.textt a{
+color: #df0e62;
+text-decoration: none;
+}
+.svm svg{
+    height: 15px;
+}
+.svm{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.479);
+}
+#certo{
+    display: flex;
+}
+#blogs
+{
+    background-color: black;
+    height: 1800px;
+    width: 81%;
+    padding-left: 19%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dblog
+{
+color: white;
+display: flex;
+width: 55%;
+justify-content: space-around;
+}
+.dblog img{
+    
+    height: 250px;
+    width: 250px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+.forme{
+    height: 700px;
+    width: 81%;
+    padding-left: 19%;
+    background-color: rgb(26,26,26);
+    padding-top: 10vh;
+    margin: 0;
+}
+#forme{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#formes{
+    color: white;
+    font-size: 35px;
+}
+label{
+    color:white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    height: 50px;
+    flex-flow: column;
+
+    flex-wrap: wrap;
+}
+input{
+    background-color: rgb(26,26,26);
+    color: #fff;
+    border-bottom: solid 1px white;
+    border-right: none;
+}
+.name2{
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+.name2 input{
+    height: 200px;
+    width: 670px;
+}
+#acaba{
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#Colorlib 
+{
+    color: #df0e62ad;
+    transition: .3s all ease;
+}
+
+#Colorlib:hover 
+{
+    color: #df0e627c;
+    transition: .3s all ease;
+}
+
+.cinza 
+{
+    color: gray;
+}
+
+@keyframes transitionHorizontal
+{
+    from 
+    {
+        opacity: 0;
+        transform: translate(-100px);
+    }
+
+    to 
+    {
+      opacity: 1;
+      transform: translate(0);   
+    }
+
+}
+
+@keyframes transitionVertical
+{
+    from 
+    {
+        opacity: 0;
+        transform: translateY(100px);;
+    }
+
+    to 
+    {
+      opacity: 1;
+      transform: translate(0);   
+    }
+
+}
