@@ -1,6 +1,5 @@
-body
-{
-    margin:0;
+body {
+    margin: 0;
     font-family: "Quicksand", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -9,8 +8,7 @@ body
     transition: all;
 }
 
-main
-{
+main {
     background-image: url(https://preview.colorlib.com/theme/elit/images/img_9.jpg);
     background-size: cover;
     background-blend-mode: multiply;
@@ -21,117 +19,107 @@ main
     width: 87%;
 }
 
-::selection
-{
+::selection {
     background: #000;
     color: #fff;
 }
 
-#BarraP
-{
-    background-color: rgb(0, 0, 0); 
+#BarraP {
+    background-color: rgb(0, 0, 0);
     position: fixed;
-    text-align: left; 
+    text-align: left;
     top: 0;
-    padding: 30px; 
+    padding: 30px;
     height: 100vh;
     width: 10%;
     overflow: auto;
-    user-select:none;
+    user-select: none;
 }
 
-#logo
-{
-    
+#logo {
+
     font-size: 20px;
     margin-bottom: 30px;
-    user-select:none;
+    user-select: none;
     animation: transitionHorizontal 0.8s;
 }
 
 
 
-#coluna1
-{
+#coluna1 {
     list-style: none;
     padding-left: 0;
     margin-bottom: 30px;
-    user-select:none;
+    user-select: none;
 
 }
 
-.linha1
-{
+.linha1 {
     font-size: 0.8rem;
     padding-top: 10px;
-    padding-bottom: 4px; 
+    padding-bottom: 4px;
 }
 
-#coluna2
-{
+#coluna2 {
     list-style: none;
     display: flex;
     flex-direction: row;
     width: 50%;
-    padding:0;
+    padding: 0;
     margin-left: 0;
     margin-right: 0;
     justify-content: space-between;
-    user-select:none
-   
-   
-}
-a
-{
-    color: white; 
-    text-decoration:none;
+    user-select: none
 }
 
-a:hover
-{
-    color:#df0e62;
+a {
+    color: white;
+    text-decoration: none;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
 }
-svg
-{
-    
+
+a:hover {
+    color: #df0e62;
+}
+
+svg {
+
     height: 15px;
     fill: #fff;
 
 }
-svg:hover 
-{
-    fill:#df0e62;
+
+svg:hover {
+    fill: #df0e62;
 }
 
-#ajuste
-{
+#ajuste {
 
-position: relative;
-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-min-height: 500px;
-z-index: 2;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    z-index: 2;
 
 }
 
-#titulo
-{
+#titulo {
     color: white;
     text-align: center;
     width: 58%;
     animation: transitionVertical 0.8s;
 }
 
-#welcome
-{
+#welcome {
     font-family: "Oswald", sans-serif;
     font-size: 4rem;
 }
 
-#subtitulo 
-{
+#subtitulo {
     font-family: "Quicksand", sans-serif;
     margin-bottom: 3rem;
     font-size: 1.25rem;
@@ -140,8 +128,7 @@ z-index: 2;
     margin-top: 0;
 }
 
-#botao
-{
+#botao {
     color: #fff;
     cursor: pointer;
     font-family: "Quicksand", sans-serif;
@@ -154,20 +141,38 @@ z-index: 2;
     letter-spacing: .1em
 }
 
-#setor1
-{
+#setor1 {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 
-.setor2
-{
+#setor2 {
     background: #000;
     justify-content: center !important;
 }
 
-#ajustesimagens 
-{
+#setor3 {
+    background: #000;
+    justify-content: center !important;
+}
+
+#setor4 {
+    background: #000;
+    justify-content: center !important;
+}
+
+#setor5 {
+    background: #000;
+    justify-content: center !important;
+}
+
+#setor6 {
+    background: #000;
+    justify-content: center !important;
+}
+
+
+#ajustesimagens {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -176,11 +181,13 @@ z-index: 2;
     position: relative
 }
 
-.image { width: 33%;
-height: 300px;
-position: relative;}
+.image {
+    width: 33%;
+    height: 300px;
+    position: relative;
+}
 
-.image img{
+.image img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -189,25 +196,27 @@ position: relative;}
     padding-right: 2.5px;
     margin: 0;
 }
-#test{
+
+#test {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
 }
-#cara{
+
+#cara {
     border-radius: 50%;
     font-family: "Quicksand", sans-serif;
 }
-#cara2{
+
+#cara2 {
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
 }
 
-#titulo2
-{ 
+#titulo2 {
     color: white;
     justify-content: center;
     align-items: center;
@@ -216,7 +225,7 @@ position: relative;}
     font-family: "Oswald", sans-serif;
 }
 
-#textocara{
+#textocara {
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -225,62 +234,72 @@ position: relative;}
     font-size: 16px;
     font-family: "Quicksand", sans-serif;
 }
-#biografia{
+
+#biografia {
     height: 1600px;
     padding-left: 27%;
-    background-color: rgb(26,26,26);
+    background-color: rgb(26, 26, 26);
 }
-.image svg
-{
-    position:absolute;
+
+.image svg {
+    position: absolute;
     opacity: 0;
     top: 70%;
     left: 50%;
     height: 25px;
     fill: white;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     transition: 0.5s;
 }
-.image:hover svg{
+
+.image:hover svg {
     top: 50%;
-    opacity: 1;}
-    
-.image:hover img
-{
+    opacity: 1;
+}
+
+.image:hover img {
     filter: brightness(50%);
     top: -50%;
     transition: 0.5s;
 }
-#titulo3{
+
+#titulo3 {
     color: white;
     font-size: 64px;
-    font-family:"Oswald", sans-serif;
+    font-family: "Oswald", sans-serif;
     padding-top: 7rem;
 }
-#tit2{
+
+#tit2 {
     font-family: "Oswald", sans-serif;
     color: white;
     font-size: 32px;
 }
-.textt{font-size: 16px;
-color: rgba(255, 255, 255, 0.479);
+
+.textt {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.479);
 }
-.textt a{
-color: #df0e62;
-text-decoration: none;
+
+.textt a {
+    color: #df0e62;
+    text-decoration: none;
 }
-.svm svg{
+
+.svm svg {
     height: 15px;
 }
-.svm{
+
+.svm {
     list-style: none;
     color: rgba(255, 255, 255, 0.479);
 }
-#certo{
+
+#certo {
     display: flex;
 }
-#blogs
-{
+
+#blogs {
     background-color: black;
     height: 1800px;
     width: 81%;
@@ -288,47 +307,50 @@ text-decoration: none;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-.dblog
-{
-color: white;
-display: flex;
-width: 55%;
-justify-content: space-around;
+
+.dblog {
+    color: white;
+    display: flex;
+    width: 55%;
+    justify-content: space-around;
 }
-.dblog img{
-    
+
+.dblog img {
+
     height: 250px;
     width: 250px;
     margin-right: 20px;
     object-fit: cover;
 }
-.forme{
+
+.forme {
     height: 1000px;
     width: 81%;
-    padding-left: 27%;
-    background-color: rgb(26,26,26);
+    padding-left: 19%;
+    background-color: rgb(26, 26, 26);
     padding-top: 10vh;
     margin: 0;
-
 }
-#forme{
+
+#forme {
     font-size: 64px;
     font-family: "Oswald", sans-serif;
     color: white;
-
 }
-#formes{
+
+#formes {
     color: white;
     font-size: 35px;
 }
-label{
-    color:white;
+
+label {
+    color: white;
     font-size: 16px;
     font-family: "Quicksand", sans-serif;
 
 }
-.name
-{
+
+.name {
     display: flex;
     justify-content: space-around;
     flex-flow: column;
@@ -336,62 +358,21 @@ label{
     width: 50%;
 }
 
-textarea
-{
-    background-color: rgb(26,26,26);
+textarea {
+    background-color: rgb(26, 26, 26);
     color: #fff;
     border-bottom: 2px solid gray;
     border-top: 0;
     border-right: 0;
-    border-left:0;
-    width: 754.5px;
-    height: 200px;
-    font-size: 16px;
-    margin-top: 30px;
+    border-left: 0;
 }
 
-input 
-{
-    background-color: rgb(26,26,26);
-    color: #fff;
-    border-bottom: 2px solid gray;
-    border-top: 0;
-    border-left:0;
-    border-right: 0;
-    width: 754.5px;
-    margin-top: 35px;
-    
-}
-#firstnamepadding 
-{
-    padding-right: 5px;
-}
-
-#lastname 
-{
- display: flex;
- width: 676.5px;
- flex-flow: row;
-}
-
-
-#lastname input 
-{
-    width: 375px;
-    
-}
-
-#lastname label 
-{
-    flex-flow: column;;
-}
-
-.name2 
-{
+.name2 {
     height: 200px;
     width: 670px;
 }
-#acaba{
+
+#acaba {
     background-color: black;
     height: 200px;
     width: 100%;
@@ -402,20 +383,16 @@ input
     text-align: center;
 }
 
-#Colorlib 
-{
+#Colorlib {
     color: #df0e62ad;
     transition: .3s all ease;
 }
 
-#Colorlib:hover 
-{
+#Colorlib:hover {
     color: #df0e627c;
     transition: .3s all ease;
 }
 
-.cinza 
-{
+.cinza {
     color: gray;
 }
-
